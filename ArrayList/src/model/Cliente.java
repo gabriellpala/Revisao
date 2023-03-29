@@ -27,7 +27,7 @@ public class Cliente {
             System.out.println("Destino: " + viagem.getDestino());
             System.out.println("Valor do quilômetro: " + viagem.getValorKM());
             System.out.println("Distância percorrida: " + viagem.getDistancia());
-            System.out.println("Valor total da viagem: " + viagem.getValorKM * viagem.getDistancia());
+            System.out.println("Valor total da viagem: " + viagem.getValorKM() * viagem.getDistancia());
         }
     }
 
